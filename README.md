@@ -1,10 +1,10 @@
 # Spark Even More! (Bonus)
 
-![Spark API]()
-
-You will implement various ways of using Spark. The goal in this assignment is to use functionalities of spark.
+![Spark API](assets/carbon.png)
 
 **PS: This assignment is not mandatory if you think you collected enough points. Tough, it is always good to practice more!**
+
+You will implement various ways of using Spark. The goal in this assignment is to use functionalities of spark.
 
 Hint: All the answers of the tasks given below, you can find it right in the [Spark Python Documentation](https://spark.apache.org/docs/latest/api/python/index.html).
 
@@ -60,6 +60,8 @@ An example of one way of setting the config is like the following.
 ``` py
 SparkSession.builder.config("spark.some.config.option", "some-value")
 ```
+
+- [ ] Use each of the `SQLContext`, `SparkSession`, `SparkContext`, `SparkConf` classes and explain in detail the differences on each. Explain the differences and when to use which one.
 
 ### 2. Read Data Tasks
 
