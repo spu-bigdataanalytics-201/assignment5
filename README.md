@@ -64,6 +64,7 @@ SparkSession.builder.config("spark.some.config.option", "some-value")
 ```
 
 - [ ] Use each of the `SQLContext`, `SparkSession`, `SparkContext`, `SparkConf` classes and explain in detail the differences on each. Explain the differences and when to use which one.
+    - Explain in detail, give examples, use these classes in your examples, compare them.
 
 ### 2. Read Data Tasks
 
