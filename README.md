@@ -29,13 +29,15 @@ To do the tasks with Spark DataFrame, you need to use pyspark.sql.DataFrame func
 data.select(...).groupBy(...)
 ```
 
-## Dataset
+### Dataset
 
 You can use the [Amazon Product Review Dataset](https://nijianmo.github.io/amazon/index.html) with the whole dataset or the smallest one, or **any other dataset that you feel comfortable with**. You may need two datasets at least to be able to perform some operations, such as *joins*.
 
 For amazon product review dataset, review and the metadata datasets could be your two datasets. 
 
-You can use small and simple datasets, you can create the dataset on your own, since some of the tasks may require multiple datasets.
+You can use small and simple datasets, you can create the dataset on your own, since some of the tasks may require multiple datasets. If you are using other datasets, please **provide a way to download the dataset** in the notebook. Remember, your notebooks should be **reproducible**, meaning that when you run it, it should have everything needed.
+
+PS: Data files should not be uploaded to git, unless they are really small and sample use only.
 
 ## Tasks
 
@@ -109,3 +111,13 @@ Instructions.md **  | A copy of current README.md file.
 LICENCE **          | The licence of the file that every project should have.
 .gitignore          | The file to control which files should be ignored by Git.
 *.ipynb             | Assignment notebook with your Spark code. 
+
+
+## Your To-Do List for This Assignment
+
+- [ ] I **have completed** all the tasks in [tasks](#tasks) section.
+- [ ] I edit this README file and checkmarked things I've completed in the tasks section.
+- [ ] My notebook(s) are well organized with headings, comments, that makes it visually appealing.
+- [ ] My notebook(s) have the results of my execution.
+- [ ] My notebook(s) are reproducible.
+- [ ] I download the final version of my repository, and uploaded to the [blackboard](https://saintpeters.blackboard.com/)!
